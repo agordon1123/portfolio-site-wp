@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import Rail from './components/Rail';
+import Nav from './components/Nav';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <p>App</p>
+      <Rail />
+      <Nav />
     </div>
   );
 }
