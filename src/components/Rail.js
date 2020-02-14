@@ -16,13 +16,13 @@ const Rail = () => {
                 </Card.Content>
                 <Card.Content extra>
                     <div className='rail-links'>
-                        <a href="https://www.twitter.com/argordondev">
+                        <a href="https://www.twitter.com/argordondev" target='_blank'>
                             <Icon name='twitter square' />
                         </a>
-                        <a href="https://www.linkedin.com/in/agordon1123">
+                        <a href="https://www.linkedin.com/in/agordon1123" target='_blank'>
                             <Icon name='linkedin' />
                         </a>
-                        <a href="https://www.github.com/agordon1123">
+                        <a href="https://www.github.com/agordon1123" target='_blank'>
                             <Icon name='github square' />
                         </a>
                     </div>

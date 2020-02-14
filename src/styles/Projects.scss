@@ -1,3 +1,33 @@
 .projects-container {
     padding: 1rem;
+    .header {
+        margin-bottom: 2rem;
+    }
+    .projects {
+        border-top: 2px dashed #ededed;
+        .project-container {
+            margin: 2rem 1rem;
+            .project-description {
+                display: flex;
+                flex-wrap: wrap;
+                a {
+                    width: 100%;
+                    display: contents;
+                    font-size: 1.8rem;
+                }
+                p {
+                    width: 100%;
+                    font-size: 1.2rem;
+                    margin: 1rem 0;
+                }
+                .stack {
+                    font-weight: 600;
+                }
+                i {
+                    font-size: 1.6rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
 }

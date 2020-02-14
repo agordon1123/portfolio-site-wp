@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Projects from './Projects';
+import Resume from './Resume';
 import Contact from './Contact';
 import Footer from './Footer';
 import { Tab } from 'semantic-ui-react';
@@ -20,6 +21,15 @@ const panes = [
       render: () => (
         <Tab.Pane attached={false}>
             <Projects />
+            <Footer />
+        </Tab.Pane>
+      )
+    },
+    {
+      menuItem: { key: 'resume', icon: 'file alternative', content: 'RESUME' },
+      render: () => (
+        <Tab.Pane attached={false}>
+            <Resume />
             <Footer />
         </Tab.Pane>
       )
