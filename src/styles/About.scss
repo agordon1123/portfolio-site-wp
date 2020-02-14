@@ -1,0 +1,64 @@
+.about-container {
+    padding: 1rem;
+    .about-details {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem 0;
+        padding: 2rem 0;
+        font-size: 1.4rem;
+        border-top: 2px dashed #ededed;
+        border-bottom: 2px dashed #ededed;
+        p {
+            width: 33%;
+            margin: 1rem 0;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+    .about-description {
+        margin: 3rem 0;
+        p {
+            font-size: 1.4rem;
+            line-height: 2;
+            margin: 1rem 0;
+        }
+    }
+    .about-services {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -2rem;
+        padding: 2rem;
+        background-color: #ededed;
+        .service {
+            width: 30%;
+            display: flex;
+            margin: 1rem;
+            .icon-background {
+                height: 5rem;
+                width: 5rem;
+                border-radius: 5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                // background-color: #5077ee;
+                background-color: #2B3C4E;
+                i {
+                    color: white;
+                }
+            }
+            .service-description {
+                padding: 1rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .about-skills {
+        display: flex;
+        justify-content: space-around;
+        margin: 3rem 0;
+        i {
+            font-size: 4rem;
+        }
+    }
+}

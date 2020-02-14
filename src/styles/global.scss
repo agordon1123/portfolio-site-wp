@@ -47,11 +47,18 @@ table {
 }
 html {
   box-sizing: border-box;
-  font-size: 62.5%!important;
+  font-size: 62.5% !important;
   position: relative;
   min-height: 100%;
   font-family: "Lato";
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+// reset ends here
+
+body {
+	background-color: #ededed !important;
+	height: auto !important;
 }

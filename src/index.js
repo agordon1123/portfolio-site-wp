@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import 'semantic-ui-css/semantic.min.css';
-import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
+import 'semantic-ui-css/semantic.min.css';
+import './index.scss';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

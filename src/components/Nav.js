@@ -2,27 +2,30 @@ import React from 'react';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import Footer from './Footer';
 import { Tab } from 'semantic-ui-react';
 
 const panes = [
     {
-      menuItem: 'About',
+      menuItem: { key: 'about', icon: 'users', content: 'ABOUT' },
       render: () => (
         <Tab.Pane attached={false}>
             <About />
+            <Footer />
         </Tab.Pane>
       )
     },
     {
-      menuItem: 'Projects',
+      menuItem: { key: 'projects', icon: 'briefcase', content: 'PROJECTS' },
       render: () => (
         <Tab.Pane attached={false}>
             <Projects />
+            <Footer />
         </Tab.Pane>
       )
     },
     {
-      menuItem: 'Contact',
+      menuItem: { key: 'contact', icon: 'comments', content: 'CONTACT' },
       render: () => (
         <Tab.Pane attached={false}>
             <Contact />

@@ -15,9 +15,17 @@ const Rail = () => {
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
-                    <a href="#">Tweet</a>
-                    <a href="#">Linkd</a>
-                    <a href="#">Git</a>
+                    <div className='rail-links'>
+                        <a href="#">
+                            <Icon name='twitter square' />
+                        </a>
+                        <a href="#">
+                            <Icon name='linkedin' />
+                        </a>
+                        <a href="#">
+                            <Icon name='github square' />
+                        </a>
+                    </div>
                 </Card.Content>
             </Card>
         </div>
