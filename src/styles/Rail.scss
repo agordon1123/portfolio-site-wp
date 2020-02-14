@@ -3,11 +3,23 @@
     margin: 1rem;
     .header {
         text-align: center;
+        font-size: 1.6rem !important;
     }
     .description {
         text-align: center;
+        font-size: 1.2rem !important;
     }
     .rail-links {
         text-align: center;
+        font-size: 2rem;
+        .twitter {
+            color: #1DA1F2;
+        }
+        .linkedin {
+            color: #0277B5;
+        }
+        .github {
+            color: black;
+        } 
     }
 }

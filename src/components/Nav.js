@@ -29,6 +29,7 @@ const panes = [
       render: () => (
         <Tab.Pane attached={false}>
             <Contact />
+            <Footer />
         </Tab.Pane>
       )
     },
