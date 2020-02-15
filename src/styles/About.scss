@@ -11,6 +11,9 @@
         p {
             width: 33%;
             margin: 1rem 0;
+            @media (max-width: 480px) {
+                width: 50%;
+            }
             span {
                 font-weight: 600;
             }
@@ -27,13 +30,20 @@
     .about-services {
         display: flex;
         flex-wrap: wrap;
+        flex-flow: wrap;
         margin: 0 -2rem;
         padding: 2rem;
         background-color: #ededed;
         .service {
             width: 30%;
+            min-width: 17.5rem;
             display: flex;
             margin: 1rem;
+            @media (max-width: 590px) {
+                width: 50%;
+                margin: 1rem 0;
+                min-width: 0;
+            }
             .icon-background {
                 height: 5rem;
                 width: 5rem;
@@ -41,7 +51,6 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                // background-color: #5077ee;
                 background-color: #2B3C4E;
                 i {
                     color: white;
@@ -50,6 +59,9 @@
             .service-description {
                 padding: 1rem;
                 font-size: 1.2rem;
+                @media (max-width: 480px) {
+                    padding: .5rem;
+                }
             }
         }
     }
@@ -57,8 +69,15 @@
         display: flex;
         justify-content: space-around;
         margin: 3rem 0;
+        @media (max-width: 480px) {
+            flex-wrap: wrap;
+        }
         i {
             font-size: 4rem;
+            @media (max-width: 480px) {
+                width: 25%;
+                margin: 1rem 0;
+            }
         }
     }
 }

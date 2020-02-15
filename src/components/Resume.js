@@ -7,7 +7,7 @@ const Resume = () => {
     return (
         <div className='resume-container'>
             <Header as='h1'>Resume</Header>
-            <iframe src={resumeLink} scrolling='no' frameBorder='0' />
+            <iframe src={resumeLink} frameBorder='0' />
         </div>
     )
 }

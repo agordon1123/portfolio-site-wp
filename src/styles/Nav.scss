@@ -1,6 +1,13 @@
 .nav-container {
     width: 75%;
     margin: 1rem;
+    @media (max-width: 480px) {
+        width: 100%;
+        margin: 2rem auto 0;
+        .menu {
+            flex-direction: column;
+        }
+    }
     a {
         font-size: 1.4rem;
     }
