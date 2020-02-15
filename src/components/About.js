@@ -17,8 +17,8 @@ const About = () => {
             </div>
             <div className='about-description'>
                 <Header as='h2'>I'm a Web Developer</Header>
-                <p>In cillum veniam mollit dolore Lorem laborum nostrud id eiusmod ullamco deserunt proident irure proident. Cillum anim pariatur velit aliqua. Ad qui aliquip sint consectetur minim. Voluptate laboris excepteur minim cupidatat ut cupidatat pariatur sunt commodo ipsum pariatur Lorem duis.</p>
-                <p>In cillum veniam mollit dolore Lorem laborum nostrud id eiusmod ullamco deserunt proident irure proident. Cillum anim pariatur velit aliqua. Ad qui aliquip sint consectetur minim. Voluptate laboris excepteur minim cupidatat ut cupidatat pariatur sunt commodo ipsum pariatur Lorem duis.</p>
+                <p>I am a full-stack web developer with a passion for creative problem solving. I use a range of technologies and programming languages to create websites and applications that responsivley deliver content with an excellent user experience.</p>
+                <p>I've always loved working with my hands. Before studying programming and computer science, I worked in the swimming pool industry for 6 years as a service technician, and more recently service manager, where I got to develop skills in plumbing, electrical, and gas installation and troubleshooting (feel free to leave your pool questions in the contact section).</p>
             </div>
             <div className='about-services'>
                 {

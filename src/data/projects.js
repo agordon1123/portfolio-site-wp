@@ -13,7 +13,7 @@ export const projects = [
     {
         id: '2',
         name: 'Silent Auction',
-        description: 'Silent Auction is a web application that creates a platform to bridge buyers and sellers in an online silent auction format. This application was created with a team of 4 developers in under 4 days and I was responsible for developing the back-end.',
+        description: 'Silent Auction is a web application that creates a platform to bridge buyers and sellers in an online silent auction format. This application was created with a team of four developers in under four days and I was responsible for developing the back-end.',
         stack: 'Node | Express | PostgreSQL | Cloudinary | React | Styled Components',
         image: 'https://res.cloudinary.com/argordon/image/upload/c_scale,w_480/v1571236341/portfolio%20website/Screen_Shot_2019-10-16_at_10.23.09_AM_btx9z3.png',
         mockup: "https://res.cloudinary.com/argordon/image/upload/v1581695094/portfolio%20website/macbook-auction_jzpm6f.png",
@@ -45,7 +45,7 @@ export const projects = [
     {
         id: '5',
         name: 'Cyberpunk MUD',
-        description: 'This application was built with a Python/Django back-end that features a room generation algorithm that creates plottable x, y coordinates in a sprial pattern. Players can move around the map and see other players in each room. Future releases will include an inventory of items and messaging between players.',
+        description: 'This application was built with a Python/Django back-end that features a room generation algorithm that creates plottable x, y coordinates in a spiral pattern. Players can move around the map and see other players in each room. This application was built by a team of five developers in under four days and I was responsible for creating the room generation algorithm and creating the back-end database and server. Future releases will include an inventory of items and messaging between players.',
         stack: 'Python | Django | React | Redux | Recharts | SCSS',
         image: 'https://res.cloudinary.com/argordon/image/upload/v1580197595/portfolio%20website/Screen_Shot_2020-01-28_at_2.45.57_AM_rzlgpn.png',
         mockup: "https://res.cloudinary.com/argordon/image/upload/v1581695127/portfolio%20website/macbook-cyberpunk_x8i9tl.png",
