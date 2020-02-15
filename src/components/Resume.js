@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from 'semantic-ui-react';
 
-const resumeLink = 'https://res.cloudinary.com/argordon/image/upload/v1581718243/portfolio%20website/alex-gordon-resume.pdf'
+const resumeLink = 'https://res.cloudinary.com/argordon/image/upload/v1581801236/portfolio%20website/alex-gordon-resume.pdf'
 
 const Resume = () => {
     return (
